@@ -1,12 +1,12 @@
-// console.log("Hello, JavaScript!")
+console.log("Hello, JavaScript!")
 
-// let age = 20;
-// let name = "Denis";
-// let isStudent = true;
+let age = 20;
+let name = "Denis";
+let isStudent = true;
 
-// console.log("Name: ", name);
-// console.log("Age: ", age);
-// console.log("Is student: ", isStudent);
+console.log("Name: ", name);
+console.log("Age: ", age);
+console.log("Is student: ", isStudent);
 
 // let value = 10;
 // console.log(value);
@@ -135,22 +135,27 @@
 // console.log(null + 1);
 // console.log(undefined + 1); 
 
-console.log(5 == "5");
-console.log(5 === "5");
-console.log(0 == false);
-console.log(0 === false);
-console.log(null == undefined);
-console.log(null === undefined);
+// console.log(5 == "5");
+// console.log(5 === "5");
+// console.log(0 == false);
+// console.log(0 === false);
+// console.log(null == undefined);
+// console.log(null === undefined);
 
-let obj1 = { name: "John" };
-let obj2 = { name: "John" };
+// let obj1 = { name: "John" };
+// let obj2 = { name: "John" };
 
-console.log(obj1 == obj2);
-console.log(obj1 === obj2);
+// console.log(obj1 == obj2);
+// console.log(obj1 === obj2);
 
-let obj3 = obj1;
-console.log(obj1 === obj3);
+// let obj3 = obj1;
+// console.log(obj1 === obj3);
 
-let arr1 = [1, 2, 3];
-let arr2 = [1, 2, 3];
-console.log(arr1 === arr2); 
+// let arr1 = [1, 2, 3];
+// let arr2 = [1, 2, 3];
+// console.log(arr1 === arr2); 
+
+let a2 = 3;
+let b2 = 9;
+console.log("Сложение:", a2 + b2);
+console.log("Умножение:", a2 * b2);
